@@ -1,0 +1,54 @@
+module.exports = {
+    router:{
+        dashboard:'Home',
+        equipmentlog:'Equipment identification record',
+        userManagement:'userManagement',
+        dataReport:'dataReport'
+    },
+    tip:{
+        successChange:'Switch Language Success',
+        select:'select',
+        success:'success',
+        error:'error',
+        unlimited:'unlimited'
+    },
+    HomePage:{
+        HomePageName:'Home',
+        quit:'quit'
+    },
+    FacilityInfo:{
+        name:'Equipment identification record',
+        timeRange:'timeRange',
+        startDate:'startDate',
+        dateClose:'dateClose',
+        to:'to',
+        macAddress:'macAddress',
+        userName:'userName',
+        userUuid:'userUuid',
+        groupName:'groupName',
+        identifyResultsValue:'identifyResultsValue',
+        loggingSourcesValue:'loggingSourcesValue',
+        identificationStateValue:'identificationStateValue',
+        recognitionModeValue:'recognitionModeValue',
+        search:'search',
+        reset:'reset',
+        deviceName:'deviceName',
+        FacilityInfoMacAddress:'FacilityInfoMacAddress',
+        captureImageUrl:'captureImageUrl',
+        ok:'ok',
+        matchingScore:'matchingScore',
+        unmatch:'unmatch',
+        perosnImageUrl:'perosnImageUrl',
+        user:'user',
+        occurredTime:'occurredTime',
+        onlineIdentify:'onlineIdentify',
+        FacilityInfoIdentify:'FacilityInfoIdentify',
+        identified:'identified',
+        unIdentified:'unIdentified',
+        UnboundGroupException:'UnboundGroupException',
+        AbnormalFaceDetection:'AbnormalFaceDetection',
+        FaceSearchAbnormal:'FaceSearchAbnormal',
+        APIToUpload:'APIToUpload',
+        EquipmentDirectPassing:'EquipmentDirectPassing',
+    }
+}
