@@ -1,12 +1,14 @@
 <template>
   <div :class="classObj" class="app-wrapper">
-    <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside" />
+    <div>
+          <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside" />
     <sidebar class="sidebar-container" />
     <div class="main-container">
       <div :class="{'fixed-header':fixedHeader}">
         <navbar />
       </div>
       <app-main />
+    </div>
     </div>
   </div>
 </template>
@@ -53,7 +55,12 @@ export default {
 <style lang="scss" scoped>
   @import "~@/styles/mixin.scss";
   @import "~@/styles/variables.scss";
-
+  .top {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
   .app-wrapper {
     @include clearfix;
     position: relative;
